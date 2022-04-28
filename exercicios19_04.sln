@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vogal ou Consoante", "Vogal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numeros_em-ordem_crescente", "Numeros_em-ordem_crescente\Numeros_em-ordem_crescente.csproj", "{CADEC1D4-650B-4A82-8CFF-57F240E53E58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ano_bisexto", "Ano_bisexto\Ano_bisexto.csproj", "{ECCE4712-AD69-471F-9770-B894FE2E5CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "entra21_ano_bissexto", "Ano_bisexto\entra21_ano_bissexto.csproj", "{ECCE4712-AD69-471F-9770-B894FE2E5CCF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "entra21_maior_menor_idade", "exercicios19_04\entra21_maior_menor_idade.csproj", "{0A627062-C524-4B19-8260-1AE8097F3DF9}"
 EndProject
