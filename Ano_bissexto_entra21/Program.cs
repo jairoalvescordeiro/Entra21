@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ano_bisexto
+namespace Ano_bissexto
 {
     class Program
     {
