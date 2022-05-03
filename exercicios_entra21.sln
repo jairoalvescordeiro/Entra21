@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triangulos_entra21", "Trian
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vogal_ou_onsoante_entra21", "Vogal_consoante_entra21\Vogal_ou_onsoante_entra21.csproj", "{095C8701-C464-4BB2-87F6-A8DBD979D85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recebe_nomes_entra21", "recebe_nomes_entra21\Recebe_nomes_entra21.csproj", "{C68B2A78-BBC2-4281-9F53-111ABD5F6D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recebe_nomes_entra21", "recebe_nomes_entra21\Recebe_nomes_entra21.csproj", "{C68B2A78-BBC2-4281-9F53-111ABD5F6D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplas_entradas_calcule_meida_entra21", "Multiplas_entradas_calcule_meida_entra21\Multiplas_entradas_calcule_meida_entra21.csproj", "{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplas_entradas_calcule_meida_entra21", "Multiplas_entradas_calcule_meida_entra21\Multiplas_entradas_calcule_meida_entra21.csproj", "{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insira_10_notas_media_maior_menor_array_entra21", "Insira_10_notas_media_maior_menor_array_entra21\Insira_10_notas_media_maior_menor_array_entra21.csproj", "{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
