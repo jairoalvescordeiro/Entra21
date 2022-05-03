@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace recebe_nomes_entra21
+namespace Recebe_nomes_entra21
 {
     class Program
     {
@@ -14,12 +14,13 @@ namespace recebe_nomes_entra21
                 Console.WriteLine("Insira um nome");
                 nomes[i] = Console.ReadLine();
             }
-            //for (int i = 0; i < nomes.Length; i++)
-            //{
-
-            //    Console.WriteLine(nomes[i]);
+            for (int i = 0; i < nomes.Length; i++)
+            {
+               Console.WriteLine(nomes[i]);
             }
           }
 
     }
 }
+//Escreva um programa que receba dez nomes de pessoas 
+//e apresente-os na tela;
