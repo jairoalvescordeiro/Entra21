@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplas_entradas_calcule_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insira_10_notas_media_maior_menor_array_entra21", "Insira_10_notas_media_maior_menor_array_entra21\Insira_10_notas_media_maior_menor_array_entra21.csproj", "{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inteiros_reperidos_entra21", "inteiros_reperidos_entra21\inteiros_reperidos_entra21.csproj", "{D58F629A-CF20-442E-A1A3-C131F84BE92D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58F629A-CF20-442E-A1A3-C131F84BE92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58F629A-CF20-442E-A1A3-C131F84BE92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58F629A-CF20-442E-A1A3-C131F84BE92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58F629A-CF20-442E-A1A3-C131F84BE92D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
