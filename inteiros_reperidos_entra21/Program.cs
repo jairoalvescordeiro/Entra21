@@ -11,51 +11,44 @@ namespace inteiros_reperidos_entra21
             //elementos repetidos e quantas vezes estes se repetem.
 
             int valor;
-            int contador = 0;
-
+            
             Console.WriteLine("Digite um valor:");
             valor = Convert.ToInt32(Console.ReadLine());
-            while (valor >= 1)
-            {
-                contador = contador + 1;
-                valor = Convert.ToInt32(Console.ReadLine());
-            }
-
+            
             int[] entradas = new int[valor];
             int[] copia = new int[valor];
             int[] contaRepetido = new int[valor];
             int[] marcaRepetido = new int[valor];
-            
+
             for (int i = 0; i < entradas.Length; i++)
             {
                 entradas[i] = Convert.ToInt32(Console.ReadLine());
                 copia[i] = entradas[i];
             }
+
             for (int i = 0; i < entradas.Length; i++)
-                {
-                for (int j = 0; j < entradas.Length; j++) ;
-                
-            
-                    if (i != j)
-
-                        {
-               
-                        if (entradas[i] == copia[j] && marcaRepetido[j] == 0)
-               
-                }
-                    contaRepetido[i]++;
-                    marcaRepetido[i] = 1;
-                    marcaRepetido[j] = -1;
-                }
-                for (int i = 0; i < marcaRepetido.Length; i++);
-                    }
-            if (contaRepetidos[i] > 0 && marcaRepetidas[i] > 0)
             {
-                Console.WriteLine($"O elemento {entradas[i]} na posição {i} repete {contaRepetidos[i]} vezes.");
+                for (int j = 0; j < entradas.Length; j++)
+                {
+                    if (i != j)
+                    {
+                        if (entradas[i] == copia[j] && marcaRepetido[j] == 0)
+                        {
+                            contaRepetido[i]++;
+                            marcaRepetido[i] = 1;
+                            marcaRepetido[j] = -1;
+                        }
+                    }
+                }
+            }
 
-
-            }     }
+            for (int i = 0; i < contaRepetido.Length; i++)
+            {
+                if (contaRepetido[i] > 0 && marcaRepetido[i] > 0)
+                {
+                    Console.WriteLine($"O elemento {entradas[i]} na posição {i} repete {contaRepetido[i]} vezes.");
+                }
+            }
         }
-    
     }
 }

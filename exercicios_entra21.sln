@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recebe_nomes_entra21", "rec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplas_entradas_calcule_meida_entra21", "Multiplas_entradas_calcule_meida_entra21\Multiplas_entradas_calcule_meida_entra21.csproj", "{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insira_10_notas_media_maior_menor_array_entra21", "Insira_10_notas_media_maior_menor_array_entra21\Insira_10_notas_media_maior_menor_array_entra21.csproj", "{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insira_10_notas_media_maior_menor_array_entra21", "Insira_10_notas_media_maior_menor_array_entra21\Insira_10_notas_media_maior_menor_array_entra21.csproj", "{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inteiros_reperidos_entra21", "inteiros_reperidos_entra21\inteiros_reperidos_entra21.csproj", "{D58F629A-CF20-442E-A1A3-C131F84BE92D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inteiros_reperidos_entra21", "inteiros_reperidos_entra21\inteiros_reperidos_entra21.csproj", "{D58F629A-CF20-442E-A1A3-C131F84BE92D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recebe_string_mostre_intercale_entra21", "Recebe_string_mostre_intercale_entra21\Recebe_string_mostre_intercale_entra21.csproj", "{47191DA9-D432-4A6C-BC6D-2412FCEFB884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{D58F629A-CF20-442E-A1A3-C131F84BE92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58F629A-CF20-442E-A1A3-C131F84BE92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58F629A-CF20-442E-A1A3-C131F84BE92D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47191DA9-D432-4A6C-BC6D-2412FCEFB884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47191DA9-D432-4A6C-BC6D-2412FCEFB884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47191DA9-D432-4A6C-BC6D-2412FCEFB884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47191DA9-D432-4A6C-BC6D-2412FCEFB884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
