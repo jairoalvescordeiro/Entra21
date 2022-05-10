@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inteiros_reperidos_entra21"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recebe_string_mostre_intercale_entra21", "Recebe_string_mostre_intercale_entra21\Recebe_string_mostre_intercale_entra21.csproj", "{47191DA9-D432-4A6C-BC6D-2412FCEFB884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcular_mostra_vetores_entra21", "Calcular_motrar_vetores_entra21\Calcular_mostra_vetores_entra21.csproj", "{74BEB604-3A02-4541-8E6D-4472D338BC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calcular_mostra_vetores_entra21", "Calcular_motrar_vetores_entra21\Calcular_mostra_vetores_entra21.csproj", "{74BEB604-3A02-4541-8E6D-4472D338BC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta_bancaria_entra21", "Conta_bancaria_entra21\Conta_bancaria_entra21.csproj", "{8CC86231-DF40-4C1D-89FD-9DA2ADFB9CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "escolhendo_operacoes_function_entra21", "escolhendo_operacoes_function_entra21\escolhendo_operacoes_function_entra21.csproj", "{6E730239-C593-46B9-B757-7B2E7AA4BB80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{74BEB604-3A02-4541-8E6D-4472D338BC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74BEB604-3A02-4541-8E6D-4472D338BC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74BEB604-3A02-4541-8E6D-4472D338BC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC86231-DF40-4C1D-89FD-9DA2ADFB9CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC86231-DF40-4C1D-89FD-9DA2ADFB9CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC86231-DF40-4C1D-89FD-9DA2ADFB9CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC86231-DF40-4C1D-89FD-9DA2ADFB9CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E730239-C593-46B9-B757-7B2E7AA4BB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E730239-C593-46B9-B757-7B2E7AA4BB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E730239-C593-46B9-B757-7B2E7AA4BB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E730239-C593-46B9-B757-7B2E7AA4BB80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,81 +1,53 @@
-﻿using System;
-
-namespace teste
+﻿//Soma dois números e retorna o valor total.
+static int SomarNumeros(int a, int b)
 {
-    class Program
+    return a + b;
+}
+//Mesma função que SomarNumeros, porém, soma valores diferentes.
+//O compilador entende que, por receberem valores de tipos diferentes, têm assinaturas diferentes e são diferentes.
+static double SomarNumeros(double a, double b)
+{
+    return a + b;
+}
+//esta função apenas executa um bloco de operações e não possui retorno.
+static void PedirEntradaParaSomaDeDoisNumeros()
+{
+    int num1;
+    int num2;
+    double num1d;
+    double num2d;
+    Console.WriteLine("Insira um valor para num1");
+    num1 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Insira um valor para num2");
+    num2 = Convert.ToInt32(Console.ReadLine());
+    //a linguagem infere que é a função com retorno de inteiro
+    int retorno = SomarNumeros(num1, num2);
+    Console.WriteLine("O valor da soma é: " + retorno);
+    Console.WriteLine("Insira um valor para num1d");
+    num1d = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Insira um valor para num2d");
+    num2d = Convert.ToDouble(Console.ReadLine());
+    //é possível chamar uma função dentro de outra
+    double retornoDouble = SomarNumeros(num1d, num2d);
+    Console.WriteLine("O valor da soma é: " + retornoDouble);
+}
+//quebra uma string em um vetor de char
+static char[] QuebrarString(string texto)
+{
+    char[] textoQuebrado = new char[texto.Length];
+    for (int i = 0; i < texto.Length; i++)
     {
-        static void Main(string[] args)
-        {
-
-            int vetor[150], vetor2[150][2],tam,i,k,aux,zero;
-            int main()
-            {
-                printf("Digite o tamanho do vetor, no maximo 150 : ");
-                scanf("%d", &tam);
-                printf("Digite os valores do vetor: ");
-                for (i = 0; i < tam; i++)
-                {
-                    scanf("%d", &vetor[i]);
-                    vetor2[i][0] = vetor[i];
-                }
-                //Ordenando o vetor
-                for (k = 0; k <= tam - 2; k++)
-                {
-                    for (i = 0; i <= tam - 2; i++)
-                    {
-                        if (vetor[i] > vetor[i + 1])
-                        {
-                            aux = vetor[i];
-                            vetor[i] = vetor[i + 1];
-                            vetor[i + 1] = aux;
-                        }
-                    }
-                }
-                //Mostrando o vetor ordenado
-                printf("Vetor ordenado: \n");
-                for (i = 0; i < tam; i++)
-                {
-                    printf("%d ", vetor[i]);
-                }
-                //Verificando numeros repetidos
-                for (i = 0; i < tam; i++)
-                {
-                    if (vetor2[i][0] == 0)
-                    {
-                        zero++;
-                    }
-                }
-                for (i = 0; i < tam; i++)
-                {
-                    for (k = 0; k < tam; k++)
-                    {
-                        if (i != k)
-                        {
-                            if (vetor2[i][0] == vetor2[k][0])
-                            {
-                                vetor2[k][0] = 0;
-                                vetor2[i][1]++;
-                            }
-                        }
-                    }
-                }
-                printf("\n\n");
-                if (zero > 0)
-                {
-                    if (zero == 1)
-                    {
-                        printf("O Numero 0 Saiu 1 Vez\n");
-                    }
-                    if (zero > 1)
-                    {
-                        printf("O Numero 0 Saiu %d Vezes\n", zero);
-                    }
-                }
-                for (i = 0; i < tam; i++)
-                {
-                    if (vetor2[i][0] != 0)
-                        printf("O Numero %d Saiu %d vezes\n", vetor2[i][0], (vetor2[i][1]) + 1);
-                }
-                getch();
-                return (1);
-            }
+        textoQuebrado[i] = texto[i];
+    }
+    return textoQuebrado;
+}
+static string MontarString(char[] texto)
+{
+    StringBuilder retorno = new StringBuilder();
+    foreach (char item in texto)
+    {
+        retorno.Append(item);
+    }
+    return retorno.ToString();
+}
+} 
