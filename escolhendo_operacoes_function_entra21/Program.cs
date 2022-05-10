@@ -16,42 +16,45 @@ namespace escolhendo_operacoes_function_entra21
             //0 – Sair.
 
 
-            Console.WriteLine("Escolha o tipo de operação: 1 (Somar), 2 (Subtrair), 3 (Multiplicar), 4 (Dividir):");
+            Console.WriteLine("Digite a operação: 1 (Somar), 2 (Subtrair), 3 (Multiplicar), 4 (Dividir), 0 (sair):");
             string operacao = Console.ReadLine();
+
+            while (operacao != "0") 
+            { 
+                Console.WriteLine("Digite o primeiro valor:");
+                double n1 = Convert.ToDouble(Console.ReadLine());
             
 
-            Console.WriteLine("Digite o primeiro valor:");
-            double n1 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Digite o segundo valor");
+                double n2 = Convert.ToDouble(Console.ReadLine());
             
+                double res;
+                  
+                if (operacao == "1")
+                {
+                    res = somar(n1, n2);
+                    Console.WriteLine("A soma é: " + res);
+                }
 
-            Console.WriteLine("Digite o segundo valor");
-            double n2 = Convert.ToDouble(Console.ReadLine());
-            
-            double res;
+                else if (operacao == "2")
+                {
+                    res = subtrair(n1, n2);
+                    Console.WriteLine("A subtração é: " + res);
+                }
 
-            if (operacao == "3") 
-            {
-                res = multiplicar(n1, n2);
-                Console.WriteLine("A multiplicação é: " + res);
-            }
-                
-            else if (operacao == "1")
-            {
-                res = somar(n1, n2);
-                Console.WriteLine("A soma é: " + res);
-            }
+                else if (operacao == "3")
+                {
+                    res = multiplicar(n1, n2);
+                    Console.WriteLine("A multiplicação é: " + res);
+                }
 
-            else if (operacao == "2")
-            {
-                res = subtrair(n1, n2);
-                Console.WriteLine("A subtração é: " + res);
+                else if (operacao == "4")
+                {
+                    res = dividir(n1, n2);
+                    Console.WriteLine("A divisão é: " + res);
+                }
             }
 
-            else if (operacao == "4")
-            {
-                res = dividir(n1, n2);
-                Console.WriteLine("A divisão é: " + res);
-            }
         }
         static double multiplicar(double n1, double n2)
         {
