@@ -33,4 +33,4 @@ namespace Insira_10_notas_media_maior_menor_array_entra21
                 Console.WriteLine("A media é:" + soma / 10);
         }
     }
-    }
+}

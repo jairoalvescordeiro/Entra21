@@ -50,9 +50,16 @@ namespace escolhendo_operacoes_function_entra21
 
                 else if (operacao == "4")
                 {
-                    res = dividir(n1, n2);
-                    Console.WriteLine("A divisão é: " + res);
+                    if (n1 != 0 && n2 != 0)
+                    {
+                        res = dividir(n1, n2);
+                        Console.WriteLine("A divisão é: " + res);
+                    }    
+                    
                 }
+
+                Console.WriteLine("Digite a operação: 1 (Somar), 2 (Subtrair), 3 (Multiplicar), 4 (Dividir), 0 (sair):");
+                operacao = Console.ReadLine();
             }
 
         }
