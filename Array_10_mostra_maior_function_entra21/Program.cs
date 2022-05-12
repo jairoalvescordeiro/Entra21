@@ -6,30 +6,30 @@ namespace Array_10_mostra_maior_function_entra21
     {
         static void Main(string[] args)
         {
+
+            double[] entradas = new double[2];
             
-
-
-        }
-
-
-    static double calcular();
-        
-
-        double[] entradas = new double[10];
-        double maior = 0;
-          
-        for (int i = 0; i<entradas.Length; i++)
-        {
-        Console.WriteLine("Insira as 10 entradas:");
-        entradas[i] = Convert.ToDouble(Console.ReadLine());
-
-        }
-        for (int i = 0; i<entradas.Length; i++)
+            for (int i = 0; i < entradas.Length; i++)
             {
-            if (entradas[i] > maior)
-            maior = entradas[i];
+                Console.WriteLine("Insira as entradas:");
+                entradas[i] = Convert.ToDouble(Console.ReadLine());
+
             }
-            
+
+                MostrarMaior(entradas);
+ 
+        }
+
+        static void MostrarMaior(double[] mostra)
+        {
+            double maior = 0;
+
+            for (int i = 0; i < mostra.Length; i++)
+            {
+                if (mostra[i] > maior)
+                    maior = mostra[i];
+            }
+            Console.WriteLine("A maior entrada é:" + maior);
         }
     }
 }
