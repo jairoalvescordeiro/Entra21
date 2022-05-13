@@ -31,21 +31,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vogal_ou_onsoante_entra21",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recebe_nomes_entra21", "recebe_nomes_entra21\Recebe_nomes_entra21.csproj", "{C68B2A78-BBC2-4281-9F53-111ABD5F6D0F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplas_entradas_calcule_meida_entra21", "Multiplas_entradas_calcule_meida_entra21\Multiplas_entradas_calcule_meida_entra21.csproj", "{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplas_entradas_calcule_media_entra21", "Multiplas_entradas_calcule_meida_entra21\Multiplas_entradas_calcule_media_entra21.csproj", "{C619DCF8-1A18-4CDD-B241-D51F319CDD7A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insira_10_notas_media_maior_menor_array_entra21", "Insira_10_notas_media_maior_menor_array_entra21\Insira_10_notas_media_maior_menor_array_entra21.csproj", "{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetor_Insira_notas_media_maior_menor_entra21", "Insira_10_notas_media_maior_menor_array_entra21\Vetor_Insira_notas_media_maior_menor_entra21.csproj", "{56BB5E71-9A99-4BBF-AFFD-5F0FFCDBACDA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inteiros_reperidos_entra21", "inteiros_reperidos_entra21\inteiros_reperidos_entra21.csproj", "{D58F629A-CF20-442E-A1A3-C131F84BE92D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recebe_string_mostre_intercale_entra21", "Recebe_string_mostre_intercale_entra21\Recebe_string_mostre_intercale_entra21.csproj", "{47191DA9-D432-4A6C-BC6D-2412FCEFB884}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calcular_mostra_vetores_entra21", "Calcular_motrar_vetores_entra21\Calcular_mostra_vetores_entra21.csproj", "{74BEB604-3A02-4541-8E6D-4472D338BC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetor_Calcular_mostra_entra21", "Calcular_motrar_vetores_entra21\Vetor_Calcular_mostra_entra21.csproj", "{74BEB604-3A02-4541-8E6D-4472D338BC75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conta_bancaria_entra21", "Conta_bancaria_entra21\Conta_bancaria_entra21.csproj", "{8CC86231-DF40-4C1D-89FD-9DA2ADFB9CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetor_Conta_bancaria_entra21", "Conta_bancaria_entra21\Vetor_Conta_bancaria_entra21.csproj", "{8CC86231-DF40-4C1D-89FD-9DA2ADFB9CEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "escolhendo_operacoes_function_entra21", "escolhendo_operacoes_function_entra21\escolhendo_operacoes_function_entra21.csproj", "{6E730239-C593-46B9-B757-7B2E7AA4BB80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funcao_escolhendo_operacoes_entra21", "escolhendo_operacoes_function_entra21\Funcao_escolhendo_operacoes_entra21.csproj", "{6E730239-C593-46B9-B757-7B2E7AA4BB80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_10_mostra_maior_function_entra21", "Array_10_mostra_maior_function_entra21\Array_10_mostra_maior_function_entra21.csproj", "{05B9DC16-6D69-40A8-8CA0-37438AC991C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funcao_ vetor_mostra_maior_entra21", "Array_10_mostra_maior_function_entra21\Funcao_ vetor_mostra_maior_entra21.csproj", "{05B9DC16-6D69-40A8-8CA0-37438AC991C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funcao_recebe_valor_mostra_divisor_entra21", "recebe_valor_mostra_divisor_function_entra21\Funcao_recebe_valor_mostra_divisor_entra21.csproj", "{5422052E-39C7-4099-8481-BA9D9161AE18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{05B9DC16-6D69-40A8-8CA0-37438AC991C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05B9DC16-6D69-40A8-8CA0-37438AC991C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05B9DC16-6D69-40A8-8CA0-37438AC991C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5422052E-39C7-4099-8481-BA9D9161AE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5422052E-39C7-4099-8481-BA9D9161AE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5422052E-39C7-4099-8481-BA9D9161AE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5422052E-39C7-4099-8481-BA9D9161AE18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

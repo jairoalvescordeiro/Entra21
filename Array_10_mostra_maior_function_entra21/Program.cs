@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Array_10_mostra_maior_function_entra21
+namespace Funcao_Vetor_mostra_maior_entra21
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace Array_10_mostra_maior_function_entra21
 
             }
 
-                MostrarMaior(entradas);
+        MostrarMaior(entradas);
  
         }
 
