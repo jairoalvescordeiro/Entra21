@@ -7,7 +7,7 @@ namespace Funcao_Vetor_mostra_maior_entra21
         static void Main(string[] args)
         {
 
-            double[] entradas = new double[2];
+            double[] entradas = new double[10];
             
             for (int i = 0; i < entradas.Length; i++)
             {

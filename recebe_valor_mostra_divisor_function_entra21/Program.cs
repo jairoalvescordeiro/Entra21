@@ -22,12 +22,14 @@ namespace Funcao_recebe_valor_mostra_divisor_entra21
                 for (int i = 0; i < divisores.Length; i++)
                 {
 
+
+
                 }
             }
             
             
             Console.WriteLine("Você digitou:" + numero);
-            Console.WriteLine("Divisor:" + contador);
+            Console.WriteLine("Divisor:" + divisores);
 
             }
  
